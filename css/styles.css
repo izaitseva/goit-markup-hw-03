@@ -1,0 +1,206 @@
+/* осн фон #F5F4FA,
+цвет кнопки, Web и при наведении #2196F3,
+цвет основы и подвала #2F303A,
+цвет заголовков #212121,
+цвет основ текста #757575, #*/
+
+/* main */
+body {
+    background-color: #ffffff;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Стилизация лого */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-header {
+    color: #212121;
+}
+
+.logo-footer {
+    color: #fff;
+}
+
+/* Header */
+.link-nav {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+.contacts-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+/* Основна частина */
+.main-section {
+    background-color: #2F303A;
+    text-align: center;
+}
+.main-text {
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.order-button {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 32px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2196F3;
+    color: #ffffff;
+}
+
+/* Перелік послуг */
+.list-services h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.list-services p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+}
+
+/* Перелік послуг-фото */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Команда */
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.team-job p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.team-job h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Нижня частина */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    color: #FFFFFF
+
+}
+
+.link-footer {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+/* Portfolio page */
+
+/* Buttons */
+.btn-list {
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    line-height: 1.62;
+}
+
+.list button {
+    background-color: #F5F4FA;
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: none;
+    font-size: 16px;
+    padding: 8px 22px;
+    border-radius: 4px;
+}
+
+.list button:hover,
+.list button:focus {
+    background-color: #2196F3;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Portfolio list */
+
+.portfolio-list h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-list p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
