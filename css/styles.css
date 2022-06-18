@@ -154,6 +154,7 @@ h2 {
 .list-services {
     margin-top: 94px;
     display: flex;
+    justify-content: space-between;
 }
 
 .list-services h3 {
@@ -172,6 +173,7 @@ h2 {
     line-height: 1.7;
     letter-spacing: 0.03em;
     margin-bottom: 0;
+    width: 270px;
 }
 
 .list-services p:not(:last-child) {
