@@ -34,6 +34,7 @@ body {
 h2 {
     margin-bottom: 50px;
 }
+
 /* Стилизация лого */
 
 .logo {
@@ -63,16 +64,19 @@ h2 {
 .header-contacts {
     display: flex;
 }
+
 .site-nav li:not(:last-child) {
-     margin-right: 50px;
+    margin-right: 50px;
 
 }
+
 .main-nav {
     display: flex;
     margin-top: 24px;
     margin-bottom: 24px;
     align-items: center;
 }
+
 .link-nav {
     display: block;
 
@@ -104,6 +108,7 @@ h2 {
     margin-left: auto;
     margin-right: 0;
 }
+
 /* Основна частина */
 .main-section {
     background-color: #2F303A;
@@ -145,6 +150,7 @@ h2 {
     padding-top: 0;
     padding-bottom: 0;
 }
+
 .list-services {
     margin-top: 94px;
     display: flex;
@@ -171,7 +177,13 @@ h2 {
 .list-services p:not(:last-child) {
     margin-right: 30px;
 }
+
 /* Перелік послуг-фото */
+
+.img-margin {
+    justify-content: space-between;
+}
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -180,6 +192,7 @@ h2 {
     color: #212121;
     padding-top: 94px;
 }
+
 .img-margin {
     margin-bottom: 94px;
     display: flex;
@@ -187,9 +200,27 @@ h2 {
 }
 
 /* Команда */
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team-decor {
+    display: block;
+    border: 1px solid #EEEEEE;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
 .section-team {
     background-color: #F5F4FA;
     padding-bottom: 94px;
+    display: block;
+    display: flex;
 }
 
 .team-job h3 {
@@ -198,6 +229,9 @@ h2 {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .team-job p {
@@ -206,11 +240,13 @@ h2 {
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-bottom: 0;
+    padding-bottom: 30px;
 }
 
 .team-job item {
     display: flex;
 }
+
 /* Нижня частина */
 
 .footer {
@@ -245,9 +281,11 @@ h2 {
 .nav-decor {
     border-bottom: 1px solid #EEEEEE;
 }
+
 .header-border {
     border: 2px;
 }
+
 .btn-list {
     text-align: center;
     letter-spacing: 0.03em;
@@ -285,6 +323,7 @@ h2 {
 .portfolio-container {
     margin-bottom: 94px;
 }
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -295,6 +334,7 @@ h2 {
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
 }
+
 .portfolio-list h3 {
     font-weight: 700;
     font-size: 18px;
