@@ -55,6 +55,9 @@ h2 {
     color: #fff;
 }
 
+.section-mrg {
+    margin-top: 94px;
+}
 /* Header */
 .header {
     margin-top: 24px;
@@ -145,9 +148,6 @@ h2 {
 }
 
 /* Перелік послуг */
-.section-services {
-    margin-top: 94px;
-}
 
 .list-services>item {
     display: block;
@@ -184,10 +184,6 @@ h2 {
 }
 
 /* Перелік послуг-фото */
-.section-services {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .img-margin {
     justify-content: space-between;
@@ -228,6 +224,7 @@ h2 {
 .section-team {
     background-color: #F5F4FA;
     padding-bottom: 94px;
+    padding-top: 94px;
     display: block;
     display: flex;
 }
