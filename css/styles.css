@@ -56,7 +56,7 @@ h2 {
 }
 
 .section-mrg {
-    margin-top: 94px;
+    padding-top: 94px;
 }
 /* Header */
 .header {
@@ -280,19 +280,25 @@ h2 {
     letter-spacing: 0.03em;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
-    margin-top: 9px;
 }
 
+.footer-list li {
+    margin-top: 9px;
+}
 /* Portfolio page */
 .section-portfolio {
     margin-bottom: 94px; 
     margin-top: 94px; 
 }
 
+
 /* Buttons */
 .nav-decor {
     border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
+
 
 .header-border {
     border: 2px;
