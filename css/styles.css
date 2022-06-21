@@ -57,6 +57,7 @@ h2 {
 
 .section-mrg {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 /* Header */
 .header {
@@ -239,8 +240,6 @@ h2 {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .team-job p {
@@ -340,6 +339,7 @@ h2 {
 .portf-item {
     padding-left: 24px;
     padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
@@ -360,7 +360,8 @@ h2 {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    margin-bottom: 9px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .portfolio-list p {
@@ -370,4 +371,5 @@ h2 {
     letter-spacing: 0.03em;
     color: #757575;
     margin-top: 0;
+    margin-bottom: 0;
 }
