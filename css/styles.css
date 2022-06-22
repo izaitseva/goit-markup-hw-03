@@ -57,6 +57,11 @@ h2 {
 
 .section-mrg {
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-photos {
+    padding-bottom: 94px;
 }
 /* Header */
 .header {
